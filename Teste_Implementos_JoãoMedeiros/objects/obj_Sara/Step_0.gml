@@ -39,3 +39,23 @@ if keyboard_check(vk_nokey) {
 if keyboard_check(vk_shift) {
 	WalkSpeed = 5;
 }
+//disparar
+if(keyboard_check_pressed(vk_space)){//se a tecla espaço for clicada irá criar uma flecha no com o ângulo do ator
+	var inst = instance_create_layer(x,y, "Instances", obj_arrow);
+	if sprite_index = sprSaraWalkUP then{
+	inst.direction = 90
+	obj_arrow.image_angle = 90
+}
+if sprite_index = sprSaraWalkDown then{
+	inst.direction = 270
+	obj_arrow.image_angle = 270
+}
+	if sprite_index = sprSaraWalkLeft then{
+	inst.direction = 180
+obj_arrow.image_angle =180
+}
+if sprite_index = sprSaraWalkRight then{
+	inst.direction = 0
+	obj_arrow.image_angle = 0
+}
+}
