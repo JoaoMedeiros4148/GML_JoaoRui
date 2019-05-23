@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "8aae514e-9d9a-4b82-8e34-11befaa76d13",
+            "Value": {
+                "id": "7d25207f-6794-4459-9d6b-195b692530a4",
+                "resourcePath": "sprites\\spr_door\\spr_door.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ce04fe8-d686-4740-8b4d-265b322de851",
             "Value": {
                 "id": "3739ac67-922a-42a0-a9ca-00b409b484dc",
