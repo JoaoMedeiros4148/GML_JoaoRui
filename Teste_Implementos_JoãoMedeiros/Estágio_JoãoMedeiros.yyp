@@ -367,14 +367,6 @@
             }
         },
         {
-            "Key": "cc8284af-6fce-4689-9287-ee9d6dc31379",
-            "Value": {
-                "id": "50eb518b-9275-45a2-8dd6-7e5df600f590",
-                "resourcePath": "objects\\obj_door2\\obj_door2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "a1120fbf-bcb1-4369-bb3e-146d82bcd75d",
