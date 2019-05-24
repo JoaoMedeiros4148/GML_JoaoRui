@@ -1,5 +1,5 @@
 /// @description Control
-//hgg
+
 //Direita
 if (keyboard_check(ord("D")) && place_free(x+CollisionSpeed,y)) { //se a letra D for pressionada irá executar o código abaixo
 	x = x + WalkSpeed; /// é o mesmo que x = x + 3.5 (velocidade base que está associada a variavel walkspeed)
