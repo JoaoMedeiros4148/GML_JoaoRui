@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "rm_collision",
     "id": "d7c88d1b-3744-4509-b89c-479272771c78",
     "creationCodeFile": "",
     "inheritCode": false,

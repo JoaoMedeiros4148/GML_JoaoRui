@@ -1,6 +1,6 @@
 
 {
-    "name": "room1",
+    "name": "rm_prison",
     "id": "21965fe5-add5-4ae2-9f37-920da8c9e6a6",
     "creationCodeFile": "",
     "inheritCode": false,

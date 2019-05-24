@@ -98,7 +98,7 @@
             "Key": "21965fe5-add5-4ae2-9f37-920da8c9e6a6",
             "Value": {
                 "id": "e0db153f-5ffa-46be-a4de-d30274b15ed2",
-                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourcePath": "rooms\\rm_prison\\rm_prison.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "ba9492e9-cfba-4a5a-b0f5-ec91e8dd72c7",
+            "Value": {
+                "id": "3e6a4238-6c44-449d-830b-6df0e8153e38",
+                "resourcePath": "sounds\\snd_eating\\snd_eating.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c1aefcb2-0729-4465-ae3b-015aa216f8ae",
             "Value": {
                 "id": "c792b32e-dc44-4867-b302-8ddd7c39a37d",
@@ -386,7 +394,7 @@
             "Key": "d7c88d1b-3744-4509-b89c-479272771c78",
             "Value": {
                 "id": "367081e9-bb79-494d-bac6-a1262851b1d4",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_collision\\rm_collision.yy",
                 "resourceType": "GMRoom"
             }
         },
