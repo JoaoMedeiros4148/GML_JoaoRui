@@ -1,28 +1,18 @@
 {
-    "id": "d5bbd37d-870b-4b1e-ab16-b4030fb5baf4",
+    "id": "6103fccc-b917-4f99-abcd-9274e9ebf3ca",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_door",
+    "name": "obj_pizza",
     "eventList": [
         {
-            "id": "cd732fab-de90-4a7d-a689-f6369ba9eadf",
+            "id": "a1452227-57e9-40e6-834a-158c34ede588",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "252bc7ee-315f-42bb-8f60-2d7fb93a5216",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "d5bbd37d-870b-4b1e-ab16-b4030fb5baf4"
-        },
-        {
-            "id": "a23f5d82-c2b8-4add-ba89-0634586d8439",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "d5bbd37d-870b-4b1e-ab16-b4030fb5baf4"
+            "m_owner": "6103fccc-b917-4f99-abcd-9274e9ebf3ca"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
-    "spriteId": "8aae514e-9d9a-4b82-8e34-11befaa76d13",
+    "solid": true,
+    "spriteId": "62c6d4ab-ac85-4896-bfa8-0648d4152d72",
     "visible": true
 }

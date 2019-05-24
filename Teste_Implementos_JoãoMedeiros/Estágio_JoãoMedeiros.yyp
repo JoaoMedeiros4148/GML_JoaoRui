@@ -191,10 +191,26 @@
             }
         },
         {
+            "Key": "6103fccc-b917-4f99-abcd-9274e9ebf3ca",
+            "Value": {
+                "id": "ce9a28c7-a584-4b4e-870d-4516dc755c42",
+                "resourcePath": "objects\\obj_pizza\\obj_pizza.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "61f9b8cb-2825-4118-a160-f73c3c34f822",
             "Value": {
                 "id": "61a7ffdd-e6dd-4b3f-a7a6-86bb4d4b7c0c",
                 "resourcePath": "sprites\\spr_mesa\\spr_mesa.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "62c6d4ab-ac85-4896-bfa8-0648d4152d72",
+            "Value": {
+                "id": "1c8972fc-5f38-4fee-b696-18056713fed2",
+                "resourcePath": "sprites\\spr_pizzasteve\\spr_pizzasteve.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -348,6 +364,14 @@
                 "id": "f4107ca6-b58d-4767-8b3a-3eb2debc1c6d",
                 "resourcePath": "sprites\\sprSaraWalkUP\\sprSaraWalkUP.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cc8284af-6fce-4689-9287-ee9d6dc31379",
+            "Value": {
+                "id": "50eb518b-9275-45a2-8dd6-7e5df600f590",
+                "resourcePath": "objects\\obj_door2\\obj_door2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
