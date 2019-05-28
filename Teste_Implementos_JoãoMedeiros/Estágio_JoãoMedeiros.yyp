@@ -234,7 +234,7 @@
             "Key": "7c534e06-314a-4d98-8214-405cc9d6cc15",
             "Value": {
                 "id": "5ddb109d-3d0b-44e8-a683-21a1a5852715",
-                "resourcePath": "objects\\obj_arrow\\obj_arrow.yy",
+                "resourcePath": "objects\\obj_flintlock_bullet\\obj_flintlock_bullet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -458,7 +458,7 @@
             "Key": "edcb264e-b478-4b52-a1c7-349bf6aea061",
             "Value": {
                 "id": "ac45e5d8-d548-45e7-bf28-addfe23fbffb",
-                "resourcePath": "sprites\\spr_arrow\\spr_arrow.yy",
+                "resourcePath": "sprites\\spr_flintlock_bullet\\spr_flintlock_bullet.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -2,14 +2,14 @@
     "id": "edcb264e-b478-4b52-a1c7-349bf6aea061",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_arrow",
+    "name": "spr_flintlock_bullet",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 33,
-    "bbox_left": 4,
-    "bbox_right": 47,
-    "bbox_top": 16,
+    "bbox_bottom": 12,
+    "bbox_left": 3,
+    "bbox_right": 12,
+    "bbox_top": 3,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -40,7 +40,7 @@
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 50,
+    "height": 16,
     "layers": [
         {
             "id": "d8a311f3-738d-49a7-84bc-8506b8e83e71",
@@ -64,7 +64,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 50,
-    "xorig": 25,
-    "yorig": 25
+    "width": 16,
+    "xorig": 8,
+    "yorig": 8
 }
