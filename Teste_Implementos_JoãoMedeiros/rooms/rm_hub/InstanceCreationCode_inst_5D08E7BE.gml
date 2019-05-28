@@ -1,3 +1,3 @@
-targetRoom = room1;
-targetX = 1080;
-targetY = 396;
+targetRoom = rm_collision;
+targetX = 1050;
+targetY = 155;

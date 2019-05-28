@@ -1,3 +1,3 @@
-targetRoom = room0;
-targetX = 1080;
-targetY = 396;
+targetRoom = rm_prison;
+targetX = 1055;
+targetY = 130;
