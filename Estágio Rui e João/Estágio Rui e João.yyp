@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "f2cdb6b4-c8e3-4e0b-8b40-fb1ef0afc706",
+            "Value": {
+                "id": "e3be7def-c002-4780-98d9-2a486ed805b2",
+                "resourcePath": "objects\\obj_light\\obj_light.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f7c2b0b2-89d2-493b-b51f-a72eca276368",
             "Value": {
                 "id": "418428da-62ec-40ae-967d-8348fa40531d",
