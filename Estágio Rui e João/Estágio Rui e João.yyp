@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "21965fe5-add5-4ae2-9f37-920da8c9e6a6",
-            "Value": {
-                "id": "e0db153f-5ffa-46be-a4de-d30274b15ed2",
-                "resourcePath": "rooms\\rm_prison\\rm_prison.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "252bc7ee-315f-42bb-8f60-2d7fb93a5216",
             "Value": {
                 "id": "f2018b0e-45cd-476a-81e9-a9c365eecde9",
@@ -212,6 +204,14 @@
                 "id": "4d066c6c-b916-478e-b60c-d3c275edd975",
                 "resourcePath": "objects\\obj_scarecrow\\obj_scarecrow.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "76bcec0b-c9fd-452b-9cd9-a85577f8b129",
+            "Value": {
+                "id": "f53a20df-bfed-470c-a6a9-1a3ce74aa04b",
+                "resourcePath": "rooms\\rm_light\\rm_light.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
