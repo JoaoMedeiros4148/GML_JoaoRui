@@ -18,8 +18,57 @@ for(var yy=starty;yy<=endy;yy++)
     for(var xx=startx;xx<=endx;xx++)
     {
         var tile = tilemap_get(tilemap,xx,yy);
-        if( tile!=0 ){
+        if( tile != 0 ){
 
         }
     }
 }
+
+var VertexFormat = vertex_format_end();
+
+var VBuffer = vertex_create_buffer();
+
+vertex_begin(VBuffer, VertexFormat);
+for(var yy=starty;yy<=endy;yy++)
+{
+    for(var xx=startx;xx<=endx;xx++)
+    {
+        var tile = tilemap_get(tilemap,xx,yy);
+        if( tile!=0 )
+        {
+            // get corners of the 
+            var px1 = xx*tile_size;     // top left
+            var py1 = yy*tile_size;
+            var px2 = px1+tile_size;    // bottom right
+            var py2 = py1+tile_size;
+
+
+            ProjectShadow(VBuffer,  px1,py1, px2,py1, lx,ly );
+            ProjectShadow(VBuffer,  px2,py1, px2,py2, lx,ly );
+            ProjectShadow(VBuffer,  px2,py2, px1,py2, lx,ly );
+            ProjectShadow(VBuffer,  px1,py2, px1,py1, lx,ly );                      
+        }
+    }
+}
+vertex_end(VBuffer);    
+vertex_submit(VBuffer,pr_trianglelist,-1);
+var PointX = px2 - px1;
+var PointY = py2 - py1;
+var Adx = PointX-lx;        
+var Ady = PointY-ly;      
+var len = sqrt( (Adx*Adx)+(Ady*Ady) );
+var Adx = Adx / len;    
+var Ady = Ady / len;
+
+  if( SignTest( px1,py1, px2,py1, lx,ly) ){
+        ProjectShadow(VBuffer,  px1,py1, px2,py1, lx,ly );
+    }
+    if( SignTest( px2,py1, px2,py2, lx,ly) ){
+        ProjectShadow(VBuffer,  px2,py1, px2,py2, lx,ly );
+    }
+    if( SignTest( px2,py2, px1,py2, lx,ly) ){
+        ProjectShadow(VBuffer,  px2,py2, px1,py2, lx,ly );
+    }
+    if( SignTest( px1,py2, px1,py1, lx,ly) ){
+        ProjectShadow(VBuffer,  px1,py2, px1,py1, lx,ly );                      
+    }
