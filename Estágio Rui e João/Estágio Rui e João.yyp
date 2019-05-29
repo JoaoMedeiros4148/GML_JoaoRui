@@ -191,27 +191,11 @@
             }
         },
         {
-            "Key": "5e686cd1-4051-4f7e-a00c-2f81c7cd4773",
-            "Value": {
-                "id": "3ae359c1-54d4-4cca-95cf-9ed37f38d4ba",
-                "resourcePath": "sprites\\spr_tortura\\spr_tortura.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6103fccc-b917-4f99-abcd-9274e9ebf3ca",
             "Value": {
                 "id": "ce9a28c7-a584-4b4e-870d-4516dc755c42",
                 "resourcePath": "objects\\obj_pizza\\obj_pizza.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "61f9b8cb-2825-4118-a160-f73c3c34f822",
-            "Value": {
-                "id": "61a7ffdd-e6dd-4b3f-a7a6-86bb4d4b7c0c",
-                "resourcePath": "sprites\\spr_mesa\\spr_mesa.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -271,14 +255,6 @@
             }
         },
         {
-            "Key": "909f45c5-630e-4aea-a8b2-5b7c5c71c55a",
-            "Value": {
-                "id": "612df69d-8fc0-4f7e-9b40-51db73cf0f72",
-                "resourcePath": "objects\\obj_tortura\\obj_tortura.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "984aaefd-4132-47c8-b180-142ecb5eefd9",
             "Value": {
                 "id": "8730c71c-d798-44cb-abb5-2f0d5d4c026f",
@@ -307,14 +283,6 @@
             "Value": {
                 "id": "dba4ae53-192e-4d9e-ac9d-aad24bdcc14e",
                 "resourcePath": "objects\\obj_camera\\obj_camera.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ab4b27c1-7565-4c7c-ab91-3bf0961bc810",
-            "Value": {
-                "id": "b7f34635-b17a-4e74-bba6-46603ba0fda3",
-                "resourcePath": "objects\\obj_dormitorio\\obj_dormitorio.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -359,14 +327,6 @@
             }
         },
         {
-            "Key": "c1aefcb2-0729-4465-ae3b-015aa216f8ae",
-            "Value": {
-                "id": "c792b32e-dc44-4867-b302-8ddd7c39a37d",
-                "resourcePath": "objects\\obj_mesa\\obj_mesa.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c73d20c8-4a20-41ea-9224-b049aa845a79",
             "Value": {
                 "id": "a20aadcc-58cd-4514-bb5d-d53c000b3b13",
@@ -404,14 +364,6 @@
                 "id": "367081e9-bb79-494d-bac6-a1262851b1d4",
                 "resourcePath": "rooms\\rm_collision\\rm_collision.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "de224a21-c756-43e7-8b95-96b06150d476",
-            "Value": {
-                "id": "a0b00dac-4452-4d1a-9110-2b1dbe334a1e",
-                "resourcePath": "sprites\\spr_dormitorio\\spr_dormitorio.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
