@@ -72,3 +72,5 @@ var Ady = Ady / len;
     if( SignTest( px1,py2, px1,py1, lx,ly) ){
         ProjectShadow(VBuffer,  px1,py2, px1,py1, lx,ly );                      
     }
+	
+	
